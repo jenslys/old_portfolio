@@ -1,5 +1,3 @@
-import NextImage from "next/image";
-
 export default function Logo() {
   return (
     <a href="https://lystad.io">
