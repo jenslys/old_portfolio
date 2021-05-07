@@ -4,7 +4,7 @@ Personal portfolio website
 
 <div align="left">
 	<a href="https://lystad.io">
-		<img src="https://lystad.io/_next/image?url=%2Fsphere1.gif&w=1920&q=75" width="200" height="150">
+		<img src="https://lystad.io/sphere1.gif" width="200" height="150">
 	</a>
 </div>
 
