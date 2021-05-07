@@ -28,7 +28,7 @@ Install dependencies
   yarn
 ```
 
-Start the server
+Start the local server
 
 ```bash
   yarn dev
