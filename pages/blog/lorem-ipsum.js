@@ -1,5 +1,4 @@
 import Container from "../../components/Container";
-import NextImage from "next/image";
 import { NextSeo } from "next-seo";
 import TwitterSEO from "../../components/TwitterSEO";
 
