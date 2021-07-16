@@ -1,5 +1,3 @@
-import NextLink from "next/link";
-
 export default function ProjectsSection() {
   return (
     <div>
@@ -14,30 +12,41 @@ export default function ProjectsSection() {
 
       <div className="px-4 py-2 space-y-4">
         <div>
-          <a href="https://github.com/jenslys" target="_blank">
+          <a href="https://github.com/jenslys/espresso" target="_blank">
             <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
-              Title 1
+              Espresso
             </h2>
           </a>
-          <p className="text-gray-500 dark:text-gray-400">Description 1</p>
+          <p className="text-gray-500 dark:text-gray-400">
+            Simple application that prevents your computer from going to sleep.
+          </p>
         </div>
 
         <div>
-          <a href="https://github.com/jenslys" target="_blank">
+          <a href="https://github.com/jenslys/twitch-giveaway" target="_blank">
             <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
-              Title 2
+              Twitch Giveaway Bot
             </h2>
           </a>
-          <p className="text-gray-500 dark:text-gray-400">Description2</p>
+          <p className="text-gray-500 dark:text-gray-400">
+            Giveaway bot for twitch.tv that lets you run basic giveaways in your
+            chat.
+          </p>
         </div>
 
         <div>
-          <a href="https://github.com/jenslys" target="_blank">
+          <a
+            href="https://github.com/jenslys/website-boilerplate-extension"
+            target="_blank"
+          >
             <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
-              Title 3
+              Website Boilerplate Extension
             </h2>
           </a>
-          <p className="text-gray-500 dark:text-gray-400">Description 3</p>
+          <p className="text-gray-500 dark:text-gray-400">
+            Visual Studio Code extension that lets you generate a simple
+            boilerplate for either TailwindCSS or Bootstrap.
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
-import { Folder } from "akar-icons";
-import { File } from "akar-icons";
+import { AirplayVideo } from "akar-icons";
+import { Newspaper } from "akar-icons";
+import { LinkOut } from "akar-icons";
 
 export default function SubPageSection() {
   return (
@@ -15,14 +16,13 @@ export default function SubPageSection() {
       <div className="px-4 py-2 space-y-4">
         <div>
           <div className="flex items-center space-x-2">
-            <File className="text-black dark:text-white" />
+            <Newspaper className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
               <a href="#">
                 <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
                   Curriculum Vitae
                 </h2>
               </a>
-              <p className="text-gray-500 dark:text-gray-400">CV</p>
             </div>
           </div>
         </div>
@@ -30,14 +30,27 @@ export default function SubPageSection() {
       <div className="px-4 py-2 space-y-4">
         <div>
           <div className="flex items-center space-x-2">
-            <Folder className="text-black dark:text-white" />
+            <AirplayVideo className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
-              <a href="#">
+              <a href="https://go.lystad.io/youtube">
                 <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
-                  dev/null
+                  Youtube
                 </h2>
               </a>
-              <p className="text-gray-500 dark:text-gray-400">dev/null</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="px-4 py-2 space-y-4">
+        <div>
+          <div className="flex items-center space-x-2">
+            <LinkOut className="text-black dark:text-white" />
+            <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
+              <a href="https://go.lystad.io/github">
+                <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+                  Github
+                </h2>
+              </a>
             </div>
           </div>
         </div>

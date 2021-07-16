@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import ProjectsSection from "../components/structures/ProjectsSection";
 import SubPageSection from "../components/structures/SubPageSection";
-import BlogSection from "../components/structures/BlogSection";
 import TwitterSEO from "../components/TwitterSEO";
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
       />
       <div className="items-start mx-auto w-full max-w-3xl space-y-4">
         <ProjectsSection />
-        <BlogSection />
         <SubPageSection />
       </div>
     </Container>
