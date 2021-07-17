@@ -32,7 +32,7 @@ export default function SubPageSection() {
           <div className="flex items-center space-x-2">
             <AirplayVideo className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
-              <a href="https://go.lystad.io/youtube">
+              <a href="https://go.lystad.io/youtube" target="_blank">
                 <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
                   Youtube
                 </h2>
@@ -46,7 +46,7 @@ export default function SubPageSection() {
           <div className="flex items-center space-x-2">
             <LinkOut className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
-              <a href="https://go.lystad.io/github">
+              <a href="https://go.lystad.io/github" target="_blank">
                 <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
                   Github
                 </h2>
