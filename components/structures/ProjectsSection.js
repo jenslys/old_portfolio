@@ -48,6 +48,17 @@ export default function ProjectsSection() {
             boilerplate for either TailwindCSS or Bootstrap.
           </p>
         </div>
+        <div>
+          <a href="https://github.com/jenslys/AutoVOD" target="_blank">
+            <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+              AutoVOD
+            </h2>
+          </a>
+          <p className="text-gray-500 dark:text-gray-400">
+            Script to automatically upload Twitch VODS in realtime to Youtube.
+            With no video stored on the disk.
+          </p>
+        </div>
       </div>
     </div>
   );
