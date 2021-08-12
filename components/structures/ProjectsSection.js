@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       <div className="px-4 py-2 space-y-4">
         <div>
           <a href="https://github.com/jenslys/espresso" target="_blank">
-            <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Espresso
             </h2>
           </a>
@@ -24,7 +24,7 @@ export default function ProjectsSection() {
 
         <div>
           <a href="https://github.com/jenslys/twitch-giveaway" target="_blank">
-            <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Twitch Giveaway Bot
             </h2>
           </a>
@@ -39,7 +39,7 @@ export default function ProjectsSection() {
             href="https://github.com/jenslys/website-boilerplate-extension"
             target="_blank"
           >
-            <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Website Boilerplate Extension
             </h2>
           </a>
@@ -50,7 +50,7 @@ export default function ProjectsSection() {
         </div>
         <div>
           <a href="https://github.com/jenslys/AutoVOD" target="_blank">
-            <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               AutoVOD
             </h2>
           </a>

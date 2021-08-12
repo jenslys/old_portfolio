@@ -19,7 +19,7 @@ export default function SubPageSection() {
             <Newspaper className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
               <a href="#">
-                <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+                <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
                   Curriculum Vitae
                 </h2>
               </a>
@@ -33,7 +33,7 @@ export default function SubPageSection() {
             <AirplayVideo className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
               <a href="https://go.lystad.io/youtube" target="_blank">
-                <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+                <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
                   Youtube
                 </h2>
               </a>
@@ -47,7 +47,7 @@ export default function SubPageSection() {
             <LinkOut className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
               <a href="https://go.lystad.io/github" target="_blank">
-                <h2 className="text-black dark:text-white font-bold rainbow_text_hover inline-block">
+                <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
                   Github
                 </h2>
               </a>

@@ -8,7 +8,7 @@ export default function Logo() {
             className="object-cover absolute filter filter-saturate-175 h-full"
           />
         </div>
-        <h1 className="text-black dark:text-white font-carbon-bold uppercase text-xl rainbow_text_hover">
+        <h1 className="text-black dark:text-white font-carbon-bold uppercase text-xl purple_text_hover">
           Lystad.io
         </h1>
       </div>
