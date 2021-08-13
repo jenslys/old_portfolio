@@ -12,6 +12,17 @@ export default function ProjectsSection() {
 
       <div className="px-4 py-2 space-y-4">
         <div>
+          <a href="https://github.com/jenslys/AutoVOD" target="_blank">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
+              AutoVOD
+            </h2>
+          </a>
+          <p className="text-gray-500 dark:text-gray-400">
+            Script to automatically upload Twitch VODS in realtime to Youtube.
+            With no video stored on the disk.
+          </p>
+        </div>
+        <div>
           <a href="https://github.com/jenslys/espresso" target="_blank">
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Espresso
@@ -21,7 +32,17 @@ export default function ProjectsSection() {
             Simple application that prevents your computer from going to sleep.
           </p>
         </div>
-
+        <div>
+          <a href="https://github.com/jenslys/color-picker" target="_blank">
+            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
+              Color Picker
+            </h2>
+          </a>
+          <p className="text-gray-500 dark:text-gray-400">
+            Tool that makes it simple to discover colors on your screen using
+            your cursor in the format you desire.
+          </p>
+        </div>
         <div>
           <a href="https://github.com/jenslys/twitch-giveaway" target="_blank">
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
@@ -33,7 +54,6 @@ export default function ProjectsSection() {
             chat.
           </p>
         </div>
-
         <div>
           <a
             href="https://github.com/jenslys/website-boilerplate-extension"
@@ -46,17 +66,6 @@ export default function ProjectsSection() {
           <p className="text-gray-500 dark:text-gray-400">
             Visual Studio Code extension that lets you generate a simple
             boilerplate for either TailwindCSS or Bootstrap.
-          </p>
-        </div>
-        <div>
-          <a href="https://github.com/jenslys/AutoVOD" target="_blank">
-            <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
-              AutoVOD
-            </h2>
-          </a>
-          <p className="text-gray-500 dark:text-gray-400">
-            Script to automatically upload Twitch VODS in realtime to Youtube.
-            With no video stored on the disk.
           </p>
         </div>
       </div>
