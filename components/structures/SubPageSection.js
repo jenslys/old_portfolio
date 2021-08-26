@@ -18,7 +18,7 @@ export default function SubPageSection() {
           <div className="flex items-center space-x-2">
             <Newspaper className="text-black dark:text-white" />
             <div className="flex-cols md:flex items-center space-x-0 md:space-x-2">
-              <a href="#">
+              <a href="https://go.lystad.io/cv">
                 <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
                   Curriculum Vitae
                 </h2>
