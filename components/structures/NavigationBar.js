@@ -10,6 +10,7 @@ export default function NavigationBar() {
           <a
             href="https://github.com/jenslys/lystad.io"
             target="_blank"
+            rel="noopener"
             className="text-black dark:text-white purple_text_hover font-carbon-bold uppercase"
           >
             source

@@ -12,7 +12,11 @@ export default function ProjectsSection() {
 
       <div className="px-4 py-2 space-y-4">
         <div>
-          <a href="https://github.com/jenslys/AutoVOD" target="_blank">
+          <a
+            href="https://github.com/jenslys/AutoVOD"
+            target="_blank"
+            rel="noopener"
+          >
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               AutoVOD
             </h2>
@@ -23,7 +27,11 @@ export default function ProjectsSection() {
           </p>
         </div>
         <div>
-          <a href="https://github.com/jenslys/espresso" target="_blank">
+          <a
+            href="https://github.com/jenslys/espresso"
+            target="_blank"
+            rel="noopener"
+          >
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Espresso
             </h2>
@@ -33,7 +41,11 @@ export default function ProjectsSection() {
           </p>
         </div>
         <div>
-          <a href="https://github.com/jenslys/color-picker" target="_blank">
+          <a
+            href="https://github.com/jenslys/color-picker"
+            target="_blank"
+            rel="noopener"
+          >
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Color Picker
             </h2>
@@ -44,7 +56,11 @@ export default function ProjectsSection() {
           </p>
         </div>
         <div>
-          <a href="https://github.com/jenslys/twitch-giveaway" target="_blank">
+          <a
+            href="https://github.com/jenslys/twitch-giveaway"
+            target="_blank"
+            rel="noopener"
+          >
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Twitch Giveaway Bot
             </h2>
@@ -58,6 +74,7 @@ export default function ProjectsSection() {
           <a
             href="https://github.com/jenslys/website-boilerplate-extension"
             target="_blank"
+            rel="noopener"
           >
             <h2 className="text-black dark:text-white font-bold purple_text_hover inline-block">
               Website Boilerplate Extension
