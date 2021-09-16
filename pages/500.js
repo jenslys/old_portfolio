@@ -1,7 +1,7 @@
 const ServerError = () => {
   return (
-    <div class="flex items-center justify-center h-screen">
-      <h1 class="text-black dark:text-white uppercase font-carbon-bold text-3xl">
+    <div className="flex items-center justify-center h-screen">
+      <h1 className="text-black dark:text-white uppercase font-carbon-bold text-3xl">
         Internal Server Error
       </h1>
     </div>

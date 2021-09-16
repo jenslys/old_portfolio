@@ -37,7 +37,7 @@ export default function ProjectsSection() {
             </h2>
           </a>
           <p className="text-gray-500 dark:text-gray-400">
-            Simple application that prevents your computer from going to sleep.
+            Application that lets you prevent your computer from going to sleep.
           </p>
         </div>
         <div>
@@ -51,8 +51,7 @@ export default function ProjectsSection() {
             </h2>
           </a>
           <p className="text-gray-500 dark:text-gray-400">
-            Tool that makes it simple to discover colors on your screen using
-            your cursor in the format you desire.
+            Tool for developers and designers to capture colors on your screen.
           </p>
         </div>
         <div>
