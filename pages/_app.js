@@ -3,6 +3,7 @@ import { ThemeProvider } from "next-themes";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 import NextNProgress from "nextjs-progressbar";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -21,7 +22,12 @@ function MyApp({ Component, pageProps }) {
           );"
         options={{ easing: "ease", speed: 500 }}
       />
-      <Component {...pageProps} />
+      <>
+        <Head>
+          <meta name="viewport" content="viewport-fit=cover" />
+        </Head>
+        <Component {...pageProps} />
+      </>
     </ThemeProvider>
   );
 }

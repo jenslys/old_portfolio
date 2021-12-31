@@ -9,7 +9,6 @@ class MyDocument extends Document {
           <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
 
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-          <meta name="viewport" content="viewport-fit=cover" />
           <meta
             content="#000000"
             name="theme-color"
