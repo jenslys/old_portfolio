@@ -9,8 +9,16 @@ class MyDocument extends Document {
           <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
 
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-          <meta content="#ffffff" name="theme-color" />
-          <meta content="#ffffff" name="msapplication-TileColor" />
+          <meta
+            content="#000000"
+            name="theme-color"
+            media="(prefers-color-scheme: dark)"
+          />
+          <meta
+            content="#ffffff"
+            name="theme-color"
+            media="(prefers-color-scheme: light)"
+          />
 
           <link rel="canonical" href="https://lystad.io" />
         </Head>
